@@ -18,7 +18,3 @@ def pascal_triangle(n):
         row.append(1)
         triangle.append(row)
     return triangle
-
-op = pascal_triangle(8)
-for i in op:
-    print(i)
